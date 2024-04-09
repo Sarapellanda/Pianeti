@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 0;
+    margin: 0;
+
+}
+
+div{
+    font-size: 16px;
+}
+
+div#card-container{
+    border: 3px solid burlywood;
+    width: calc(25% - 20px) ;
+    display: inline-block;
+    margin: 10px;
+}
+
+h2{
+    background-color: rgb(245, 199, 143);
+    color: blanchedalmond;
+    margin: 0;
+    padding: 5px;
+}
+
+#card-body{
+    background-color: palevioletred;
+    color: rgb(97, 6, 103);
+    padding: 5px;
+    font-size: 20px;
+    border-top: 5px solid burlywood;
+    border-bottom: 5px solid burlywood;
+}
+
+#card-footer{
+    background-color: rgb(223, 164, 245);
+    padding: 5px;
+    color: blueviolet;
+    font-size: larger;
+}

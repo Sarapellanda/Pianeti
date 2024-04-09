@@ -1,0 +1,52 @@
+
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+ul{
+    font-family: 'Times New Roman', Times, serif;
+    list-style: circle;
+}
+div{
+    font-size: 16px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+div#card-container{
+    border: 2px solid burlywood;
+    max-width: 100px;
+    width: calc(25% - 20px);
+    margin: 10px;
+    display: inline-block;
+
+}
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 2px;
+    margin: 0;
+    color: burlywood;
+    background-color: blanchedalmond;
+}
+
+img {
+    width: 96px;
+    background-color: blanchedalmond;
+    border-top: 2px solid burlywood;
+}
+
+
+
+
+

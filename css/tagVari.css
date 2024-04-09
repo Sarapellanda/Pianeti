@@ -1,0 +1,21 @@
+span{
+    font-weight: bold;
+}
+mark{
+    background-color: pink;
+}
+
+pre{
+    margin: 0;
+}
+
+/* kbd{
+    background-color: pink;
+    color: rgb(164, 121, 68);
+    border: 5px solid burlywood;
+    padding: 3px;
+} */
+
+kbd{
+    color: burlywood;
+}

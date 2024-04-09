@@ -1,0 +1,73 @@
+p.grassetto{
+    font-weight: 700;
+    font-style: oblique;
+}
+
+u{
+    /* text-decoration: none; */
+    /* text-decoration-style: wavy;
+    text-decoration-color: blueviolet; */
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-color: blueviolet;
+}
+
+div.ombra {
+    text-shadow: 3px 3px 2px pink;
+}
+
+.trasforma {
+    text-transform: uppercase;
+}
+
+.trasforma:hover {
+    text-transform: none;
+}
+
+.maiuscoletto {
+    font-variant: small-caps;
+}
+
+div.allineamento {
+    width: 50%;
+    max-width: 600px;
+    border: 3px solid palevioletred;
+    text-align: center;
+    margin: 0 auto;
+}
+
+div.subcontainer {
+width: 50%;
+background-color: antiquewhite;
+min-height: 200px;
+display: inline-block;
+line-height: 200px;
+/* line-height: 200px; (funziona se altezza è fissata e deve esserco solo una riga di testo) */
+}
+
+p {
+    text-align: left;
+    /* margin: 0 auto; */
+    line-height: 1.5;
+}
+
+div.gestisci_spazi{
+   /* white-space: nowrap; */
+   /* white-space: pre-line ; */
+   white-space: prewrap;
+   /* overflow: scroll; */
+   /* overflow: hidden; */
+   padding: 5px;
+   width: 150px;
+   border: 3px solid palevioletred;
+    
+}
+
+div.parole_lunghe {
+    width: 150px;
+    border: 2px solid plum;
+    overflow-wrap: break-word;
+    hyphens: auto;
+}

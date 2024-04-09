@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+p{
+    /* background-color: pink;
+    margin: 0;
+    border: 20px solid palevioletred;
+    outline: 20px solid violet;
+    margin: 20px; */
+    /* margin: 40px; */
+}
+p{
+    text-indent: 20px;
+} 
+div{
+    background-color: blueviolet;
+    /* padding: 30px; */
+}
+
+/* span{
+    background-color: deeppink;
+} */
+span{
+    background-color: antiquewhite;
+    color: deeppink;
+    display: inline-block;
+    width: 300px;
+    /* margin: 5px; */
+}

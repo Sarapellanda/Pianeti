@@ -1,0 +1,20 @@
+body{
+    height: 800px;
+    background-color: beige;
+}
+div{
+    background-color: pink;
+    color: rgb(205, 43, 226);
+    /* width: 500px; */
+    /* width: 50%;  la metà del body,in qualsiasi dimensione schermo */
+    /* width: 700px; cosi si creano le barre di dimensioni */
+    /* height: 100%; */
+    /* max-width: 700px; */
+    min-width: 400px;
+    width: 50%;
+    min-height: 300px;
+}
+/* regola applicata a tutti i div dentro la pagina
+div div{
+    background-color: beige;
+} */

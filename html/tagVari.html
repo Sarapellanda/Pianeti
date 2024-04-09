@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>TagVari</title>
+        <link rel="stylesheet" href="../css/tagVari.css">
+    </head>
+
+    <body>
+        <h2>Tag strong span e b.</h2>
+        <div>
+            <p>
+                Mi piaccciono le <span>peonie</span> rosa.
+            </p>
+            <p>Se la temperatura del reattore nucleare super i 100 gradi <strong>spegnere le valvole.</strong></p>
+            <p>Le <b>bottiglie di plastica</b> andrebbero eliminate.</p>
+        </div>
+
+        <hr>
+
+        <h2>Tag i ed em</h2>
+        <div>
+            <p>
+                <em>Testo in corsivo</em>
+            </p>
+            <p><i>Ehi,come va?</i></p>
+            <p><i></i></p>
+            <p>Gli esseri umani sono <i>homo sapiens.</i></p>
+            <p>Il <i>throughput</i> è un termine tecnico dell'informatica.</p>
+            <p>Nella didattica la massima <i lang="la">repetita iuvant </i>è sempre attuale.</p>
+            <p>Anna Frank pensierosa si chiese<i> come è possibile tutto ciò.</i></p>
+
+
+            <hr>
+
+            <h2>Tag u</h2>
+            <p>Marco fece ridere tutti dicendo che <u>l'orcestra</u> aveva suonato bene</p>
+
+            <hr>
+
+            <h2>Tag mark</h2>
+            <p>Il <mark>chiniesologo</mark> è una figura chiave nella riabilitazione.</p>
+
+            <hr>
+            <h2>Tag cite</h2>
+            <p>La <cite>Divina commedia</cite> di Dante Alighieri</p>
+            <p>L'<cite>urlo</cite> di Munch</p>
+            <hr>
+            <h2>Annidare i tag</h2>
+            <p>
+                <strong><i>Homo sapiens</i></strong>
+            </p>
+
+            <h2 title="Intestazione h2">Tag abbr</h2>
+            <p><abbr title="Organizzazione delle Nazioni Unite">ONU</abbr></p>
+            <p>Il <abbr title="Signor">Sig.</abbr> Luca</p>
+            <p>10 <abbr title="metri al secondo">m/s</abbr></p>
+
+            <hr>
+
+            <h2>Tag dfn</h2>
+            <p>Un <dfn><i lang="en">debugger</i></dfn> , in informatica, è un <i lang="en">tool</i> per individuare gli errori.</p>
+
+            <p>L' <dfn><abbr title="Organizzazione delle Nazioni Unite">ONU</abbr></dfn> è un'organizzazione intergovernativa a carattere mondiale.</p>
+
+        <hr>
+
+        <h2>Tag var</h2>
+        <p><var>x</var> =<var>y</var>+2</p>
+
+        <hr>
+        <h2>Tag ins e del</h2>
+        <p>L'articolo costa <del>15€</del> <ins>10€</ins></p>
+        <p>Il testo iniziale conteneva la parola <del datetime="2023-02-26T13:56">equanime</del>, adesso è stata rimpiazzata da <ins>imparziale</ins>.</p>
+
+        <h2>Tag pre</h2>
+        <div>
+            <pre>
+            Prima riga
+            Seconda riga
+            Terza riga
+        </pre>
+        </div>
+        <div>
+            Per annullare la formattazione di defaulòt del tag pre devo usare
+            <pre>
+                pre {
+                    margin: 0;
+                }</pre>
+        </div>
+
+        <hr>
+        <h2>Tag samp</h2>
+        <div>
+            <pre><samp>
+                Last login: Sun Feb 25 11:22:19 on console
+You have new mail.
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+MacBook-Pro-di-Sara:~ sara$ 
+MacBook-Pro-di-Sara:~ sara$ node --version
+-bash: node: command not found
+MacBook-Pro-di-Sara:~ sara$ node--version
+-bash: node--version: command not found
+MacBook-Pro-di-Sara:~ sara$ node --help
+-bash: node: command not found
+MacBook-Pro-di-Sara:~ sara$ 
+            </samp></pre>
+            
+        </div>
+
+        <hr>
+        <h2>Tag kbd</h2>
+        <!-- <p><kbd>CTRL</kbd>+ <kbd>C</kbd> serve per copiare il testo.</p> -->
+
+        <div>
+            <pre>
+        <kbd>node--version</kbd>
+        <samp>v18.17.1</samp>
+    </pre>
+</div>
+
+<div>
+    <pre>
+        <code>
+            span{
+                font-weight: bold;
+            }
+            mark{
+                background-color: pink;
+            }
+            
+            pre{
+                margin: 0;
+            }
+            
+            /* kbd{
+                background-color: pink;
+                color: rgb(164, 121, 68);
+                border: 5px solid burlywood;
+                padding: 3px;
+            } */
+            
+            kbd{
+                color: burlywood;
+            }
+        </code>
+    </pre>
+</div>
+
+<hr>
+<h2>Tag small</h2>
+<p>
+    <pre>
+    Testo fuori small.
+    <small>Tutti i diritti sono riservati.</small>
+</pre>
+</p>
+
+<hr>
+<h2>Tag sub e sup</h2>
+<p>H<sub>2</sub>O</p>
+<p>x<sup>3</sup></p>
+
+<hr>
+
+<h2>Tag address</h2>
+Sede legale <address>Via dei Cmpi Flegrei 2, Napoli</address>
+
+<hr>
+
+<h2>Tag q</h2>
+<p>Matilde replicò così alla domanda: <q>Le sfide ci fanno crescere.</q></p>
+
+<hr>
+<h2>Tag blockquote</h2>
+<div>
+    Interloquendo con lui se ne uscì con <blockquote>"Non ti crucciar di loro" <cite>Divina Commedia - Inferno Canto X</cite></blockquote>
+    
+</div>
+
+    </body>
+</html>

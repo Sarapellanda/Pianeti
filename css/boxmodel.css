@@ -1,0 +1,45 @@
+div{
+    background-color: pink;
+    /* margin: 10px; */
+    /* margin: 30px 20px 15px 25px; */
+    /* margin: 20px 10px; */
+    /* margin: 10px 15px 20px; */
+    /* margin: 5%; */
+    /* margin: 10px auto; */
+    width: 300px;
+    /* margin: 10px auto; */
+  
+    /* margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 20px;
+    margin-top: 30px; */
+    margin: 10px 40px;
+    margin-bottom: 0;
+
+    /* padding: 24px; */
+    padding-left: 15px;
+    /* padding-right: 20px;
+    padding-top: 30px
+    padding-bottom: 0; */
+
+    /* border-width: 5px;
+    border-color: aquamarine;
+    border-style: dotted; */
+    /* border-style: solid; */
+    
+    /* border-top-width: 10px;
+    border-top-color: aquamarine;
+    border-top-style: dotted; */
+    
+    /* border-top: 10px aquamarine dotted; */
+    
+    /* border: 10px solid aquamarine; */
+    width: 500px;
+    padding: 50px;
+    border: 20px ridge violet;
+    /* margin: 30px; */
+    box-sizing: border-box;
+}
+div + div{
+    background-color: blueviolet;
+}

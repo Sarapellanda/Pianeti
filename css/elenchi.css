@@ -1,0 +1,16 @@
+ul li{
+    /* list-style-type: circle; */
+    padding: 10px;
+    list-style-image: url(../../assets/img/icons8-ninja-turtle-48.png);
+}
+
+ul{
+    padding-left: 45px;
+}
+
+ol li{
+    /* list-style-type: decimal-leading-zero;
+    list-style-type: lower-latin;
+    list-style-type: upper-latin; */
+    list-style-type: upper-roman;
+}

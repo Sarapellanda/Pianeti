@@ -1,0 +1,17 @@
+/* small{
+    background-color: blanchedalmond;
+    color: burlywood;
+    padding: 10px;
+} */
+
+small.errore {
+    background-color: antiquewhite;
+    color: burlywood;
+    padding: 10px;
+}
+
+.errore-form {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-style: oblique;
+}
